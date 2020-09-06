@@ -25,7 +25,11 @@ after running
 If my predictor outputs a 0, that means the predictor predicted a cat and if it outputs a 1, that would mean it predicted a dog
 
 After creating my cat test image, I asked my model to predict the image.
+
 ```model.predict_classes(cat_image)```
+
 The model predicted it correctly as it output array([[0]]) as the result.
+
 ```model.predict(cat_image)``` also gave me an output of array([[0.37897196]], dtype=float32).
+
 Anything above .5 means that it predicted a dog and anything below means it predicted a cat
