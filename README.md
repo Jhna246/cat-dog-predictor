@@ -30,6 +30,7 @@ After creating my cat test image, I asked my model to predict the image.
 
 The model predicted it correctly as it output array([[0]]) as the result.
 
+
 ```model.predict(cat_image)``` also gave me an output of array([[0.37897196]], dtype=float32).
 
 Anything above .5 means that it predicted a dog and anything below means it predicted a cat
